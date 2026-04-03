@@ -85,7 +85,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "requests", specifier = ">=2.33.1" }]
+requires-dist = [{ name = "requests", specifier = ">=2.32.4" }]
 
 [[package]]
 name = "urllib3"
