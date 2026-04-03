@@ -29,5 +29,8 @@ package-lock.json
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# macOS ignores
+.DS_Store
+
 # Dependency directories (remove the comment below to include it)
 # vendor/

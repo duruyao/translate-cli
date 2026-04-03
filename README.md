@@ -5,16 +5,10 @@
 - [python3](https://www.python.org/)
 - python3-pip
 
-## Install
-
-```shell
-bash install.sh
-```
-
 ## Usage
 
 ```shell
-$ trans --help
+$ /path/to/trans.sh --help
 Usage:
     trans [<EN_WORD|ZH-CN_WORD> ...]
 
@@ -23,7 +17,7 @@ Usage:
 ## Example
 
 ```shell
-$ trans hello 世界
+$ /path/to/trans.sh hello 世界
 ┌──
 │   hello
 │   英 [həˈləʊ] 美 [heˈloʊ]
@@ -59,7 +53,7 @@ $ trans hello 世界
 ```
 
 ```shell
-$ trans
+$ /path/to/trans.sh
 Youdao Dictionary CLI Interactor
 ────────────────────────────────
 Type the words (zh-cn, en) you want to query.
